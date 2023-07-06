@@ -1,0 +1,22 @@
+.header
+    margin-top: 46px
+    display: flex
+    justify-content: start
+    align-items: center
+    &__links
+        margin-left: auto
+        a
+            text-decoration: none
+            margin-right: 65px
+            +poppins_medium($header_text, 22px)
+            &:last-child
+                margin-right: 54px
+    &__btn
+        cursor: pointer
+        background-color: $black
+        border-radius: 7px
+        width: 134px
+        height: 62px
+        padding-top: 8px
+        text-align: center
+        +poppins_medium($white, 24px)

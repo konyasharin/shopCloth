@@ -1,0 +1,43 @@
+.footer
+    min-height: 545px
+    background-color: $black
+    padding-top: 120px
+    &__wrapper
+        display: flex
+        justify-content: start
+    &__logo
+        +poppins_black($white, 40px)
+    &__text
+        margin: 32px 0
+        +roboto_regular($grey_footer, 24px)
+    &__social
+        display: flex
+        justify-content: start
+    &__square
+        border-radius: 15px
+        background-color: $yellow
+        width: 52px
+        height: 52px
+        margin-right: 14px
+        img
+            display: block
+            margin: 0 auto
+            position: relative
+            top: 50%
+            transform: translateY(-50%)
+    &__right-block
+        margin-left: auto
+        display: flex
+        justify-content: start
+    &__points
+        margin-right: 188px
+        &:last-child
+            margin-right: 0
+    &__point
+        display: block
+        text-decoration: none
+        +roboto_regular($grey_footer, 24px)
+        margin-top: 32px
+        &_light
+            color: $light_footer
+

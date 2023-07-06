@@ -1,0 +1,39 @@
+.sale
+    margin-top: 190px
+    background: url('../img/sale.png') center (center/cover) no-repeat
+    min-height: 968px
+    position: relative
+    padding-top: 128px
+    &__wrapper
+        display: inline-block
+        position: relative
+        left: 950px
+    &__title
+        +poppins_black($black, 112px)
+        margin-bottom: 33px
+        span
+            isolation: isolate
+            position: relative
+            &::after
+                mix-blend-mode: overlay
+                position: absolute
+                top: 0%
+                left: -20px
+                display: block
+                content: ""
+                width: 540px
+                height: 130px
+                transform: rotate(-2deg)
+                background-color: $white
+    &__text
+        +poppins_medium($text, 36px)
+    &__subtitle
+        +poppins_bold($black, 36px)
+        margin-top: 40px
+        margin-bottom: 5px
+    &__btn
+        margin-top: 50px
+        height: 95px
+        width: 265px
+        font-weight: 600
+        font-size: 28px

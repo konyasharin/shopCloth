@@ -1,0 +1,51 @@
+@import "variables"
+*
+    box-sizing: border-box
+    font-family: "Poppins"
+.container
+    width: 1720px
+    margin: 0 auto
+    position: relative
+body
+    position: relative
+.burger
+    display: none
+    &__stick
+        height: 8px
+        width: 65px
+        background-color: $black
+        margin-top: 6px
+=poppins_regular($color, $size)
+    font-weight: 400
+    font-size: $size
+    color: $color
+=poppins_medium($color, $size)
+    font-weight: 500
+    font-size: $size
+    color: $color
+=poppins_black($color, $size)
+    font-weight: 900
+    font-size: $size
+    color: $color
+=poppins_bold($color, $size)
+    font-weight: 700
+    font-size: $size
+    color: $color
+=roboto_regular($color, $size)
+    font-family: "Roboto"
+    font-weight: 400
+    font-size: $size
+    color: $color
+@import "buttons"
+@import "header"
+@import "main"
+@import "brands"
+@import "arrivals"
+@import "sale"
+@import "young"
+@import "download"
+@import "email"
+@import "footer"
+@import "media-1720"
+@import "media-1400"
+@import "media-1200"

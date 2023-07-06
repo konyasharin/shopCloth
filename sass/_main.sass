@@ -1,0 +1,47 @@
+.main
+    margin-top: 56px
+    height: 852px
+    position: relative
+    img
+        margin-left: 23px
+    &__background
+        width: 100%
+        padding-top: 68px
+        position: absolute
+        z-index: -2
+        display: flex
+        justify-content: center
+        background-color: $main_box_color
+        border-radius: 59px
+    &__rectangle-white
+        position: relative
+        img
+            z-index: -1
+            position: absolute
+            left: -55px
+            bottom: 5px
+    &__rectangle-yellow
+        position: relative
+        img
+            z-index: -1
+            position: absolute
+            left: -55px
+            bottom: -10px
+    &__text-block
+        margin-left: 115px
+        +poppins_black($black, 96px)
+    &__text
+        margin-top: 40px
+        +poppins_regular($text, 32px)
+    &__wrapper
+        margin-top: 32px
+        display: flex
+        justify-content: start
+        align-items: center
+        img
+            margin-left: 0
+    &__btn
+        height: 82px
+        width: 221px
+        margin-left: 34px
+        +poppins_medium($white, 30px)
